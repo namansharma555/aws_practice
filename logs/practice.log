@@ -1,0 +1,37 @@
+2022-07-25 21:44:08.282  INFO 21400 --- [main] AWSPracticeApplication                   : Starting AWSPracticeApplication using Java 1.8.0_312 on ip-192-168-0-102.ap-south-1.compute.internal with PID 21400 (/Users/namansharma/Downloads/aws_practice/target/classes started by namansharma in /Users/namansharma/Downloads/aws_practice)
+2022-07-25 21:44:08.285  INFO 21400 --- [main] AWSPracticeApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 21:44:09.458  INFO 21400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 21:44:09.477  INFO 21400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 21:44:09.477  INFO 21400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-25 21:44:09.570  INFO 21400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 21:44:09.570  INFO 21400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1218 ms
+2022-07-25 21:44:09.861  WARN 21400 --- [main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
+2022-07-25 21:44:10.151  WARN 21400 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-07-25 21:44:10.154  INFO 21400 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-25 21:44:10.166  INFO 21400 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-25 21:44:10.193 ERROR 21400 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-07-25 21:44:31.982  INFO 21551 --- [main] AWSPracticeApplication                   : Starting AWSPracticeApplication using Java 1.8.0_312 on ip-192-168-0-102.ap-south-1.compute.internal with PID 21551 (/Users/namansharma/Downloads/aws_practice/target/classes started by namansharma in /Users/namansharma/Downloads/aws_practice)
+2022-07-25 21:44:31.986  INFO 21551 --- [main] AWSPracticeApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 21:44:33.096  INFO 21551 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 21:44:33.112  INFO 21551 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 21:44:33.113  INFO 21551 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-25 21:44:33.241  INFO 21551 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 21:44:33.242  INFO 21551 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1195 ms
+2022-07-25 21:44:33.562  WARN 21551 --- [main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
+2022-07-25 21:44:33.843  INFO 21551 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-25 21:44:33.854  INFO 21551 --- [main] AWSPracticeApplication                   : Started AWSPracticeApplication in 2.304 seconds (JVM running for 2.698)
